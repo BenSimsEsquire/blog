@@ -4,5 +4,8 @@ title: About
 ---
 # About page
 
-This page tells you a little bit about me.
+Welcome, Traveller!
+
+I'm a software engineer working in enterprise storage and virtualization space. This blog is a record of things
+I've learned and things that interest me. Consider it a random stream of technological consciousness.
 

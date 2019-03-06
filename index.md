@@ -4,5 +4,10 @@
 
 layout: default
 ---
-
-Benjamin Sims Esquire, Software Engineer Part III CASM, welcomes you to this homepage 
+<h2>{{ site.data.navigation.docs_list_title }}</h2>
+Ben Sims Esquire, Software Engineer, Part III CASM, welcomes you to this homepage 
+<ul>
+   {% for item in site.data.navigation.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
